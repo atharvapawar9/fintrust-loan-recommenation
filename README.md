@@ -7,7 +7,7 @@ This project is a FastAPI backend that loads ML models from `.pkl` files and ser
 - PowerShell or Command Prompt
 
 ### 2) Open a terminal in the project root
-Project root: `C:\Users\adity\ml_cogni`
+Project root: `C:\Users\atharva\ml_cogni`
 
 ### 3) Create and activate a virtual environment (Windows)
 ```powershell
