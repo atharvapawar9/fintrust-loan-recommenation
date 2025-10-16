@@ -159,18 +159,3 @@ Run the connection test script:
 .\test-connection.ps1
 ```
 
-## 🚀 Production Deployment
-See `DEPLOYMENT.md` for complete production deployment guide on Render.
-
-## 🔧 Frontend Connection Issues
-
-### Problem Identified
-The frontend was hardcoded to connect to `http://localhost:8000`, which causes connection issues in production.
-
-### Solution Applied
-1. **Environment Variables**: Frontend now uses `NEXT_PUBLIC_API_URL` environment variable
-2. **Fallback URLs**: Defaults to `http://localhost:8000` for local development
-3. **Production Ready**: Can be set to production backend URL in Render
-
-### Testing Connection
-Use the provided `test-connection.ps1` script to verify both services are communicating properly.
